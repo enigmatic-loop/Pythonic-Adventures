@@ -1,1 +1,1 @@
-# Python-Platformer
+Based on Python Platform Game Tutorial by FreeCodeCamp. YouTube link: https://www.youtube.com/watch?v=6gLeplbqtqg&t=106s
