@@ -1,4 +1,5 @@
 import pygame
+from os.path import join
 from configs import *
 
 def get_background(name):
@@ -28,3 +29,6 @@ def handle_move(player):
     player.move_left(PLAYER_VELOCITY)
   if keys[pygame.K_RIGHT]:
     player.move_right(PLAYER_VELOCITY)
+
+def flip(sprites):
+  return [pygame.transform.flip(sprite, True, False) for sprite in sprites]
